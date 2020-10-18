@@ -3,153 +3,197 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="StyleSheets/header.css" type="text/css">
+    <link rel="stylesheet" href="StyleSheets/MainStyle.css" type="text/css">
+    <link rel="stylesheet" href="StyleSheets/buttons.css" type="text/css">
+    <link rel="stylesheet" href="StyleSheets/footer.css" type="text/css">
     <title>TunnelBear</title>
 </head>
-    <body>  
+    <body class="body_style">   
         <!-- ХЕДЕР = лого + навигация + лог -->
-        <header>      
-            <h2>
-               TannelBear
-            </h2> 
-
-            <nav>
-                <ul>
-                    <li>Plans</li>
-                    <li>Apps</li>
-                    <li>Help</li>
-                    <li>My Account</li>
+        <header class="head_style">      
+            <h1 class="logo">
+                TunnelBear
+            </h1> 
+            
+            <nav class="lead_menu">
+                <ul class="hr_ul_menu">
+                    <li class="hr_li_menu">Plans</li>
+                    <li class="hr_li_menu">Apps</li>
+                    <li class="hr_li_menu">Help</li>
+                    <li class="hr_li_menu">My Account</li>
                 </ul>
             </nav>
+            
+            <div class="nav_buttons">
+                <button class="button_up">
+                   Sign up
+                </button>
 
-            <input type="button" value="Sign In">
-            <input type="button" value="Sign Up">
+                <button class="button_log">
+                   Login
+                </button>
+                
+            </div>
+        
+            
 
         </header> 
 
         <!-- Баннер + скролл -->
         
-        <main>
+        <main class="main_style">
             <article>   
-                <section>
-                    <h1>
-                        A more secure <br>
-                        way to browse <br>
-                        the web
-                    </h1>
-                    <p> 
-                        TunnelBear encrypts your internet connection to keep <br>
-                        your online activity private on any network.
-                    </p>
+                <section class="banner">
+                    <div class="text_content">
+                        <h1 class="banner_head">
+                            A more secure way <br><br>
+                            to browse the web
+                        </h1>
+                        <p class="pattern_text"> 
+                            TunnelBear encrypts your internet connection to keep
+                            your online activity private on any network.
+                        </p>
+                        
+                        <button class="banner_button_main">
+                            Get TunnelBear now
+                        </button>
+            
+                        <button class="banner_button">
+                            Learn more
+                        </button>
+                                   
+                    </div>
 
-                    <input type="button" value="Get TunnelBear now">
-                    <input type="button" value="Learn more">    
-                    <br> <br> <!-- костыль картинка прилипает к кнопкам, потом убрать -->
-                    <img src="img/TunnelBearBanner.png" width="450" alt="Здесь должно быть изображение баннера">
-                
+                    <div class="banner_scrl">
+                      
+                        <img class="banner_img" src="img/banner_photo_01.png"  alt="Здесь должно быть изображение баннера">
+                        <img class="banner_img_button_02" src="img/Right.svg" alt=""> 
+                        <img class="banner_img_button_01" src="img/Left.svg" alt="">
+                    </div>    
+                        
+
+                   
                 </section>
 
                 <!-- Сервисы -->
 
-                <section>
-                    <p> OUR SERVICES </p> <br>
+                <section class="service">
+                    <p> OUR SERVICES </p>
+                    <h2 class="header_style"> Why millions of people are using TunnelBear </h2>
+                    <p class="pattern_text"> TunnelBear respects your privacy. We will never monitor, log, or sell any of your browsing activity. </p>
 
-                    <h1> Why millions of people are using TunnelBear </h1> <br>
-
-                    <p> TunnelBear respects your privacy. We will never monitor, log, or sell any of your browsing activity. </p>
-
-                    <ul>
-                        <li>
-                            <img src="img/icon_01.svg" width="60" alt="Иконка сервиса 1">
-                            <h4> Engineered for speed </h4>
-                            <p> 
-                                Our global server network is optimized to <br>
-                                let you surf and stream quickly. No <br>
+                    <ul class="service_ul">
+                        <li class="service_li">
+                            <img class="service_img" src="img/speed_icon.png" width="60" alt="Иконка сервиса 1">
+                            <h4 class="service_head"> Engineered for speed </h4>
+                            <p class="mar_del"> 
+                                Our global server network is optimized to
+                                let you surf and stream quickly. No
                                 throttling, no buffering, no fuss. 
                             </p>
+                            <br>
                             <a href="#"> Learn more </a>
                         </li>
-                        <li>
-                            <img src="img/icon_02.svg" width="60" alt="Иконка сервиса 2">
-                            <h4> Security you can rely on </h4>
-                            <p> 
-                                TunnelBear is the only VPN in the world <br>
-                                to publish regular, independent security <br>
+                        <li class="service_li">
+                            <img class="service_img" src="img/Secure_icon.png" width="60" alt="Иконка сервиса 2">
+                            <h4 class="service_head"> Security you can rely on </h4>
+                            <p class="mar_del"> 
+                                TunnelBear is the only VPN in the world
+                                to publish regular, independent security
                                 audits of our apps.
                             </p>
+                            <br>
                             <a href="#"> Learn more </a>
                         </li>
-                        <li>
-                            <img src="img/icon_03.svg" width="60" alt="Иконка сервиса 3">
-                            <h4> Strong Encryption </h4>
-                            <p> 
-                                TunnelBear uses strong AES 256-bit <br>
-                                encryption by default. Weaker encryption <br>
+                        <li class="service_li">
+                            <img class="service_img" src="img/Encode_icon.png" width="60" alt="Иконка сервиса 3">
+                            <h4 class="service_head"> Strong Encryption </h4>
+                            <p class="mar_del"> 
+                                TunnelBear uses strong AES 256-bit 
+                                encryption by default. Weaker encryption
                                 isn't even an option.
                             </p>
+                            <br>
                             <a href="#"> Learn more </a>
                         </li>
                     </ul>
                 </section>
 
-                <!-- Функции -->
+                <!-- Приложения -->
+                
+                <section class="app">
+                    <p class="mar_del"> OUR APPS </p>
 
-                <section>
-                    <p> OUR SERVICES </p> <br>
+                    <h2 class="header_style"> Easy-to-use apps for all your devices</h2>
 
-                    <h1> Easy-to-use apps for all your devices</h1> <br>
+                    <p class="pattern_text"> Just open the TunnelBear app, select a country, and flip the switch. </p>
+                    <div class="app_img_box">
+                        <div class="app_img">
+                            <img class="app_img_size" src="img/Portable.png" alt="Изображение содержащее в себе текст 1">
+                            <p class="app_img_txt">
+                                120 million curious readers and growing.
+                            </p>
+                        </div>
 
-                    <p> Just open the TunnelBear app, select a country, and flip the switch. </p>
-
-                    <img src="img/Portable.png" width="400" alt="Изображение содержащее в себе текст 1">
-                    <img src="img/notebook.png" width="400" alt="Изображение содержащее в себе текст 2">
+                        <div class="app_img">
+                            <img class="app_img_size" src="img/notebook.png" alt="Изображение содержащее в себе текст 2">
+                            <p class="app_img_txt">
+                                Most user-friendly PC app. <br>
+                                Made for everyone.
+                            </p>
+                        </div> 
+                    </div>
                 </section>
 
                 <!-- Цены -->
 
-                <section>
-                    <h1> Choose the plan that's right for your buisness </h1>
+                <section class="price">
+                    <h2 class="header_style"> Choose the plan that's right for your buisness </h2>
 
-                    <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore, fugit? Sint, a officia! </p>
+                    <p class="pattern_text"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore, fugit? Sint, a officia! </p>
 
-                    <ul>
-                        <li>
-                            <h2> Started plan</h2>
-                            <h2> Free </h2> 
-                            <p> Testing and limited usage </p>
-                            <br>
-                            <p>
+                    <ul class="price_ul">
+                        <li class="price_li li_top_bord_01">
+                            <h2 class="header_style"> Started plan</h2>
+                            <h2 class="header_style li_col_01"> Free </h2> 
+                            <p class="pattern_text li_txt_col"> Testing and limited usage </p>
+                            <p class="li_txt_col">
                                 Testing and limited usage <br>
                                 500MB of secure browsing
                             </p>
                             <br>
-                            <input type="button" value="Get Started">
+                            <button class="button_up li_button_set">
+                                Get Started
+                            </button>
+
                         </li>
-                        <li>
-                            <h2> Unlimited </h2>
-                            <h2> $3.33/mo </h2> 
-                            <p> All-day security and peace of mind </p>
-                            <br>
-                            <p>
+                        <li class="price_li li_top_bord_02">
+                            <h2 class="header_style"> Unlimited </h2>
+                            <h2 class="header_style li_col_02"> $3.33/mo </h2> 
+                            <p class="pattern_text li_txt_col"> All-day security and peace of mind </p>
+                            <p class="li_txt_col">
                                 Unlimited secure browsing <br>
                                 5 connected devices
                                 Priority customer service
                             </p>
                             <br>
-                            <input type="button" value="Get Started">
+                            <button class="button_up li_button_set">
+                                Get Started
+                            </button>
                         </li>
-                        <li>
-                            <h2> Teams</h2>
-                            <h2> $5.75/user per month </h2> 
-                            <p> For businesses securing 2+ users </p>
-                            <br>
-                            <p>
+                        <li class="price_li li_top_bord_03">
+                            <h2 class="header_style"> Teams</h2>
+                            <h2 class="header_style li_col_03"> $5.75/upm</h2> 
+                            <p class="pattern_text li_txt_col"> For businesses securing 2+ users </p>
+                            <p class="li_txt_col"> 
                                 Unlimited secure browsing <br>
                                 5 connected devices per user <br>
-                                Dedicated account manager <br>
-                                Centralized team billing and management
                             </p>
                             <br>
-                            <input type="button" value="Get Started">
+                            <button class="button_log li_button_set">
+                                Get Started
+                            </button>
                         </li>
                     </ul>
 
@@ -157,161 +201,172 @@
 
                 <!-- Триал -->
 
-                <section>
+                <section class="trial">
 
-                    <h1> Get started today and try 30 days free </h1>    
+                    <h1 class="header_style h_style_trial"> Get started today and try 30 days free </h1>    
                     <br>
-                    <p> No contact, no set-up costs, just awesome way to organase your money. </p>
-                    <input type="button" value="Try it for free"> 
-                    <input type="button" value="Watch Demo">
+                    <p class="pattern_text t_style_trial"> No contact, no set-up costs, just awesome way to organase your money. </p>
+                    <button class="button_log trial_bt_set_01"> 
+                        Try it for free
+                    </button>
+                    <button class="button_up trial_bt_set_02"> 
+                        Watch Demo
+                    </button>
+
 
                 </section>
 
                 <!-- Поле для связи -->
 
-                <section> 
-                    <h1> Request further information </h1>
-
-                    <input type="email" name="email" id="email" required placeholder="email"> <br> <br>
-
-                    <input type="text" name="First Name" id="firstName" placeholder="First name"> <br> <br>
-
-                    <input type="text" name="Last Name" id="lastName" placeholder="Last name"> <br> <br>
-
-                    <input type="text" name="Company" id="Company" placeholder="Company name"> <br> <br>
-
-                    <input type="number" name="Phone number" id="phoneNumber" required placeholder="Phone number"> <br> <br>
-
-                    <textarea name="message" placeholder="Your message" id="message" cols="30" rows="10"></textarea> <br> <br>
-
-                    <input type="checkbox" name="Representation" id="Representation">
-                    <label for="Representation">I agree for a representation of something</label> <br> <br>
+                <section class="con_us"> 
+                    <h2 class="header_style con_us_h"> Request further information </h2>
+                    <form action="">
+                        <input class="con_us_men" type="email" name="email" id="email" required  placeholder="email"> <br> <br>
                     
-                    <input type="checkbox" name="Newsletter" id="Newsletter">
-                    <label for="Newsletter">Please, also subscribe to our newsletter</label> <br> <br>
-                    
-                    <input type="submit" value="Submit">
+                        <input class="con_us_men" type="text" name="First Name" id="firstName" placeholder="First name"> <br> <br>
 
+                        <input class="con_us_men" type="text" name="Last Name" id="lastName" placeholder="Last name"> <br> <br>
+
+                        <input class="con_us_men" type="text" name="Company" id="Company" placeholder="Company name"> <br> <br>
+
+                        <input class="con_us_men" type="tel" name="Phone number" id="phoneNumber" required placeholder="Phone number"> <br> <br>
+
+                        <textarea class="con_us_men con_us_t_box" name="message" placeholder="Your message" id="message" cols="30" rows="10"></textarea> <br> <br>
+
+                        <input class="con_us_chck" type="checkbox" name="Representation" id="Representation" required>
+                        <label class="pattern_text" for="Representation">I agree for a representation of something</label> <br> <br>
+                    
+                        <input class="con_us_chck" type="checkbox" name="Newsletter" id="Newsletter" >
+                        <label class="pattern_text" for="Newsletter">Please, also subscribe to our newsletter</label> <br> <br>
+                    
+                        <input class="con_us_but" type="submit" value="Submit">
+                    </form>
                 </section>
             </article>
         </main>
         <!-- Общая информация -->
 
-        <footer>
-            <h2>TunnelBear</h2>
-            <br>
-            <p>
-                We spent more than 65 hours researching 53 <br>
-                VPN services [and] TunnelBear is the most <br> 
-                ansparent and trustworthy provider offering <br>
-                fast, secure connections and easy setup.   
-           
-            </p>
+        <footer class="footer_style">
             
-            <nav>
-
-                <ul>
-                    <li>
-                        <a href="https://www.instagram.com/">
-                            <img src="img/Instagram.png" width="40" alt="instagram icon">   
-                        </a>                      
-                    </li>
-                    <li>
-                        <a href="https://www.facebook.com">
-                            <img src="img/facebook.png" width="40" alt="Facebook icon">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.GitHub.com">
-                           <img src="img/GitHub.png" width="40" alt="Github icon"> 
-                        </a>
-                        
-                    </li>
-                    <li>
-                        <a href="https://www.twiiter.com">
-                            <img src="img/twitter.png" width="40" alt="Twitter icon">
-                        </a>
-                    </li>
-                </ul>
-
-            </nav>
-
-            <ul>
+            <div class="footer_info">
+                <h2 class="footer_h">TunnelBear</h2>
+                <br>
+                <p class="pattern_text">
+                    We spent more than 65 hours researching 53
+                    VPN services [and] TunnelBear is the most
+                    ansparent and trustworthy provider offering
+                    fast, secure connections and easy setup.   
+            
+                </p>
                 <nav>
-                    <li>
-                        <h3> APPS </h3>
-                        <br> 
-                        <nav>
-                            <ul>
-                                <li> 
-                                    <a href="#"> 
-                                        Phone & iPad
-                                    </a>  
-                                </li>
-                                <li> 
-                                    <a href="#"> 
-                                        Android 
-                                    </a>  
-                                </li>
-                                <li> 
-                                    <a href="#">
-                                        Mac
-                                    </a>  
-                                </li>
-                                <li> 
-                                    <a href="#">
-                                        Windows
-                                    </a>  
-                                </li>
-                                <li> 
-                                    <a href="#">
-                                        Browser
-                                    </a>  
-                                </li>
-                            </ul>
-                        </nav>
-                    </li>
+                    <ul class="footer_ul_img">
+                        <li class="footer_img">
+                            <a href="https://www.instagram.com/">
+                                <img src="img/inst.svg" width="40" alt="instagram icon">   
+                            </a>                      
+                        </li>
+                        <li class="footer_img">
+                            <a href="https://www.facebook.com">
+                                <img src="img/facebook_icon.svg" width="40" alt="Facebook icon">
+                            </a>
+                        </li>
+                        <li class="footer_img">
+                            <a href="https://www.GitHub.com">
+                            <img src="img/GitHub.svg" width="40" alt="Github icon"> 
+                            </a>
+                            
+                        </li>
+                        <li class="footer_img">
+                            <a href="https://www.twiiter.com">
+                                <img src="img/unknow_logo.svg" width="40" alt="Twitter icon">
+                            </a>
+                        </li>
+                        <li class="footer_img">
+                            <a href="https://www.twiiter.com">
+                                <img src="img/twitter.svg" width="40" alt="Twitter icon">
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
 
-                    <li>
-                        <h3> COMPANY </h3>
-                        <br>
-                        <nav>
-                            <ul>
-                                <li> 
-                                    <a href="#">
-                                        About
-                                    </a>                                 
-                                </li>
-                                <li> 
-                                    <a href="#">
-                                        Terms
-                                    </a>                                
-                                </li>
-                                <li> 
-                                    <a href="#">
-                                        Privacy Policy
-                                    </a>                          
-                                </li>
-                                <li> 
-                                    <a href="#">
-                                        Careers
-                                    </a>                              
-                                </li>
-                            </ul>
-                        </nav>
-                    </li>
-                
+            
 
-                <li>
-                    <h3> CONTACT US </h3>
-                    <p> We're Always Happy to Help</p>
-                    <h3> Mail@freehand.io </h3>
-                    <img src="img/TunnelBearLogo.svg" alt="Лого">
-                </li>
-            </ul>
+            <div class="footer_nav">
+                    <ul class="footer_ul">
+                        <li class="footer_li">
+                            <h3 class="footer_h"> APPS </h3>
+                            <br> 
+                            <nav>
+                                <ul class="footer_ul_child">
+                                    <li class="footer_li_child"> 
+                                        <a href="#"> 
+                                            Phone & iPad
+                                        </a>  
+                                    </li>
+                                    <li class="footer_li_child"> 
+                                        <a href="#"> 
+                                            Android 
+                                        </a>  
+                                    </li>
+                                    <li class="footer_li_child"> 
+                                        <a href="#">
+                                            Mac
+                                        </a>  
+                                    </li>
+                                    <li class="footer_li_child"> 
+                                        <a href="#">
+                                            Windows
+                                        </a>  
+                                    </li>
+                                    <li class="footer_li_child"> 
+                                        <a href="#">
+                                            Browser
+                                        </a>  
+                                    </li>
+                                </ul>
+                            </nav>
+                        </li>
 
-            <p> Copyright ©2020. Crafted with love. </p>
+                        <li class="footer_li">
+                            <h3 class="footer_h"> COMPANY </h3>
+                            <br>
+                            <nav>
+                                <ul class="footer_ul_child">
+                                    <li class="footer_li_child"> 
+                                        <a href="#">
+                                            About
+                                        </a>                                 
+                                    </li>
+                                    <li class="footer_li_child"> 
+                                        <a href="#">
+                                            Terms
+                                        </a>                                
+                                    </li>
+                                    <li class="footer_li_child"> 
+                                        <a href="#">
+                                            Privacy Policy
+                                        </a>                          
+                                    </li>
+                                    <li class="footer_li_child"> 
+                                        <a href="#">
+                                            Careers
+                                        </a>                              
+                                    </li>
+                                </ul>
+                            </nav>
+                        </li>
+                    
+
+                        <li class="footer_li">
+                            <h3 class="footer_h"> CONTACT US </h3>
+                            <h3> We're Always Happy to Help</h3>
+                            <h3> Mail@freehand.io </h3>
+                            <img src="img/TunnelBearLogo.svg" alt="Лого">
+                        </li>
+                </ul>
+            </div>
+            <p class="text_pattern con_us_h mar_top"> Copyright ©2020. Crafted with love. </p>
         </footer>
-
     </body>
 </html>

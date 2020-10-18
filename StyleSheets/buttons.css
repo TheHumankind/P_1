@@ -1,0 +1,60 @@
+input :required{
+    border: 2px solid #FA6770;
+}
+
+h1, h2{
+    font-family: Market Deco;
+}
+
+
+@font-face{
+    font-family: Market Deco;
+    src: url(Fonts/Market_Deco.ttf);
+}
+
+a:hover{
+    
+    color: #F7BF55;
+}
+a:link{
+    text-decoration: none;
+}
+a{
+    transition: .2s linear;
+    color: #000
+}
+footer a{
+    color: #fff
+}
+a:visited{
+    color: #FA6770;
+}
+
+a:visited:hover{
+    color: #F7BF55;
+}
+
+button{
+    transition: .2s linear;
+}
+
+input[type=submit] {
+    transition: .02s linear;
+}
+input[type=submit]:hover {
+    background-color: #F7BF55;
+    border-color: #F7BF55;;
+}
+
+:required{
+    border: 2px solid #FA6770;
+}
+
+button:hover{
+    background-color: #F7BF55;
+    border-color: #F7BF55;;
+}
+
+textarea{
+    resize: none;
+}

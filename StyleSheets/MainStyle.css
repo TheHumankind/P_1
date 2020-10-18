@@ -1,0 +1,363 @@
+.main_style {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+/* Начало баннера */
+
+.banner{
+    max-width: 1200px;
+    max-height: 420px;
+    display: flex;
+}
+
+/* Заголовок и текст баннера */
+
+.text_content{
+    width: 550px;
+    height: 420px;
+    box-sizing: border-box;
+    padding-right: 30px;
+}
+.banner_head{
+    line-height: 35px; 
+    font-weight: bold;
+    font-size: 56px;
+    margin-top: 0px;
+
+}
+
+/* панель в баннере с меняющимися фото */
+
+.banner_scrl{
+   
+    max-width: 650px;
+    width: 100%;
+    height: 420px;
+    position: relative;
+}
+
+.banner_img{
+    position: absolute;
+    top: 0px;
+    left: 35px;
+    width: 580px;
+    height: 415px;
+    border-radius: 8px;
+}
+
+.banner_img_button_01{
+    position: absolute;
+    top: 182px;
+}
+.banner_img_button_02{
+    position: absolute;
+    left: 595px;
+    top: 182px;
+}
+
+/*Часто используемые настройки текста 
+(это я к тому, что они есть не только в баннере)*/
+
+.pattern_text{
+    margin-top: 0px;
+    margin-bottom: 40px;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+/*продающая и рассказывающая кнопка баннера*/
+
+.banner_button{
+    width: 150px;
+    height: 50px;
+    display: inline-block;
+    border-radius: 8px;
+    border: 3px solid #007FFC;
+    background-color: #fff;
+    font-weight: bold;
+    color: #007FFC;
+    margin-top: 25px;
+}
+
+.banner_button_main{
+    width: 170px;
+    height: 50px;
+    display: inline-block;
+    border-radius: 8px;
+    border: 3px solid #007FFC;
+    background-color: #007FFC;
+    font-weight: bold;
+    color: #FFF;
+    margin-top: 25px;
+}
+
+/*начало секции сервисов */
+
+.service{
+    width: 1200px;
+    height: 540px;
+    margin-top: 110px;
+    box-sizing: border-box;
+}
+
+/* основной стиль заголовка
+(тоже часто используется) */
+
+.header_style{
+    margin: 10px 0px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+/*выравнивание списка сервисов*/
+
+.service_ul{
+    margin-top: 70px;
+    list-style: none;
+    padding: 0px;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.service_li{
+    box-sizing: border-box;
+    padding: 40px;
+    width: 360px;
+    height: 350px;
+    border: 1px solid #e5eaf4;
+    border-radius: 8px;
+}
+
+/*настойка внутренностей списка сервисов*/
+
+.service_head{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+.service_img{
+    padding: 6px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #e8f0fb;
+    border-radius: 16px;
+}
+
+/* секция приложений */
+
+.app{
+    width: 1200px;
+    height: 700px;
+    margin-top: 100px;
+}
+
+/* коробка фиксирующая картинки*/
+
+.app_img_box{
+    margin-top: 70px;
+    width: 1200px;
+    height: 485px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* настройка позиционирования для текста */
+
+.app_img{
+    width: 555px;
+    height: 485px;
+    display: inline-block;
+    position: relative;
+}
+
+.app_img_size{
+    width: 555px;
+    height: 485px;
+    border-radius: 8px;
+}
+
+/*настройка текста
+тут я позволил себе вольности ради 
+читаемости текста (белый почти не видно)*/
+
+.app_img_txt{
+    position: absolute;
+    top: 285px;
+    left: 32px;
+    width: 490px;
+    height: 100px;
+    font-size: 36px;
+    font-weight: 500;
+    color: #56cbae;
+    text-align: center;
+
+}
+
+/* секция цен */
+
+.price{
+    width: 1200px;
+    height: 620px;
+    margin-top: 100px;
+}
+
+/* выравнивание списка цен */
+
+.price_ul{
+    margin-top: 70px;
+    padding: 0;
+    width: 1200px;
+    height: 450px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.price_li{
+    text-align: center;
+    box-sizing: border-box;
+    width: 360px;
+    height: 450px;
+}
+
+/* настройка цветов в ценниках
+честно, не знаю как сделать короче*/
+
+.li_top_bord_01{
+    border-top: 4px solid #007FFC;
+}
+
+.li_top_bord_02{
+    border-top: 4px solid #56CBAE;
+}
+
+.li_top_bord_03{
+    border-top: 4px solid #FA6770;
+}
+
+.li_col_01{
+    margin-top: 50px;
+    color: #007FFC;
+    font-weight: 700;
+}
+
+.li_col_02{
+    margin-top: 50px;
+    color: #56CBAE;
+    font-weight: 700;
+}
+
+.li_col_03{
+    margin-top: 50px;
+    color: #FA6770;
+    font-weight: 700;
+}
+
+/* текст ценников */
+
+.li_txt_col{
+    color: #87A1B6;
+    margin-bottom: 50px;
+}
+
+/* переделал кнопки по макету */
+
+.li_button_set{
+    margin: 0px;
+    border-radius: 23px;
+    width: 180px;
+}
+
+/* секция пробного периода */
+
+.trial{
+    margin-bottom: 170px;
+    margin-top: 170px;
+    box-sizing: border-box;
+    background-image: url(../img/BG_Trial.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1200px;
+    height: 380px;
+    border-radius: 15px;
+    text-align: center;
+    padding-top: 100px;
+    color: #fff;
+    
+}
+
+/* переделал кнопки пробного периода */
+
+.trial_bt_set_01{
+    border-radius: 23px;
+    width: 190px;
+    height: 50px;
+    background-color: #fff;
+    border: 2px solid #fff;
+    color: #000;
+}
+
+.trial_bt_set_02{
+    border-radius: 23px;
+    width: 190px;
+    height: 50px;
+    background: rgba(1, 1, 1, 0);
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+/* секция свяжись с нами */
+
+.con_us{
+    box-sizing: border-box;
+    margin: 100px auto;
+    width: 585px;
+    height: 835px;
+}
+
+/* настройки input */
+
+.con_us_men{
+    font-size: 16px;
+    border-radius: 4px;
+    width: 585px;
+    height: 50px;
+}
+
+/* chekbox */
+
+.con_us_chck{
+    width: 18px;
+    height: 18px;
+    margin: 0px;
+}
+
+/*я обозвал это text box, хотя это textarea*/
+
+.con_us_t_box{
+    height: 170px;
+}
+
+/*заголовок связи*/
+
+.con_us_h{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* могучая кнопка отправить */
+
+.con_us_but{
+    width: 585px;
+    height: 50px;;
+    border: 2px solid #007FFC;
+    background-color: #007FFC;
+    border-radius: 4px;
+    color: #FFF;
+    margin: 20px auto;
+}
