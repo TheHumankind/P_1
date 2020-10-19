@@ -6,28 +6,47 @@ h1, h2{
     font-family: Market Deco;
 }
 
-
 @font-face{
     font-family: Market Deco;
     src: url(Fonts/Market_Deco.ttf);
 }
 
-a:hover{
-    
+.a_ignore:link{
+    text-decoration: solid;
+    color: #007FFC;
+}
+
+a:hover{    
     color: #F7BF55;
 }
 a:link{
     text-decoration: none;
 }
-a{
+
+.service a{
     transition: .2s linear;
     color: #000
 }
+
+.con_us a{
+    transition: .2s linear;
+    color: #007FFC;
+    text-decoration: solid;
+}
+
+.service a{
+    transition: .2s linear;
+    color: #000
+}
+
+.service a:visited{
+    transition: .2s linear;
+    color: #FA6770;
+}
+
+
 footer a{
     color: #fff
-}
-a:visited{
-    color: #FA6770;
 }
 
 a:visited:hover{
@@ -57,4 +76,8 @@ button:hover{
 
 textarea{
     resize: none;
+}
+
+a:visited{
+    color: #FA6770;
 }
