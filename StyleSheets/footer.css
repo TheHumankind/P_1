@@ -1,3 +1,5 @@
+/* секция футера */
+
 .footer_style {
     width: 1440px;
     background-color: #16133e;
@@ -6,11 +8,15 @@
     padding: 100px 150px;
 }
 
+/*заголовок футера*/
+
 .footer_h{
     margin: 0px;
     height: 32px;
     line-height: 20px;
 }
+
+/* текст футера */
 
 .footer_info{
     vertical-align: top;
@@ -19,6 +25,9 @@
     margin: 0 50px;
     box-sizing: border-box;
 }
+
+/* все что отвечает за списки с навигацией */
+
 .footer_nav{
     vertical-align: top;
     width: 630px;
