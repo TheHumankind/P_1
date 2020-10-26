@@ -1,91 +1,71 @@
-/* мини настройки */ 
-
-.mar_top{
-    margin-top: 100px;
-}
-.mar_del{
-    margin-bottom: 0;
-}
-
-/* указал размер body */ 
-
-.body_style {
-    width: 1440px;
-    margin: 0 auto;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    
-}
-
-/* начало заголовка */
-
-.head_style {   
-    max-width: 1200px;
-    min-height: 90px;
-    margin: 0 auto;
-    display: flex;
-    border-bottom: 1px solid #d8d8d8;
-    padding-bottom: 10px;
-}
-
-/* логотип */
-
-.logo {
-    max-width: 200px;
-    text-align: center;
-    width: 100%;  
-}
-
-/* все что отвечате за меню */
-
-.lead_menu {
-    margin-left: 40px;
-    max-width: 750px;
+.body_style{
+    max-width: 1440px;
     width: 100%;
-    align-items: center;
+    margin: 0 auto;
     display: flex;
-    justify-content: center;     
-} 
-
-.nav_buttons {
-    max-width:250px;
+    flex-direction: column;
     align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}     
+
+.menu{
+    max-width: 1200px;
+    width: 100%;
     display: flex;
-    justify-content: right;
+    justify-content: space-around;
+    border-bottom: 1px solid #d8d8d8;
 }
 
-.hr_ul_menu {
-   list-style: none;
-   padding: 0px;
-   max-width: 360px;
-   width: 100%;
-   display: flex; 
-   justify-content: space-between;
-   font-weight: bold;
+.navigation{
+    max-width: 710px;
+    width: 100%;
+    display: flex;
+    vertical-align: middle;
+    justify-content: space-around;
 }
 
-.hr_li_menu {
-   display: inline-block;
+.navigation ul{
+    flex-grow: 1;
+    flex-wrap: wrap;
+    padding-left: 10%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.navigation ul li{
+    margin: 0px 3%;
 }
 
-/* кнопки логина и регистрации */
-
-.button_up{
-   margin: 10px;
-   width: 120px;
-   height: 50px;
-   border-radius: 8px;
-   border: 3px solid #16133e; 
-   font-weight: bold;
-   background-color: #fff;
+.logo{
+    max-width: 200px;
+    width: 100%;
+    text-align: center;
 }
 
-.button_log{
-    margin: 10px;
-    width: 120px;
-    height: 50px;
+.menu_btn{
+    max-width: 290px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.login{
+  color: #FFF;
+  background-color: #16133E;  
+}
+.sign_up{
+  color: #16133E;
+  background-color: #FFF;  
+}
+.all_buttons{
+    max-width: 110px;
+    width: 100%;
+    max-height: 50px;
+    height: 100%;
+    margin: 0px 3%;
+    border: 2px solid #16133E;
     border-radius: 8px;
-    border: 3px solid #16133e; 
-    background-color: #16133e;
-    color: #fff;
-    font-weight: bold;
- }
+    font-weight: 600;    
+}
