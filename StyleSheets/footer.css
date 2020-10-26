@@ -5,9 +5,9 @@
     background-color: #16133e;
     color: #FFF;
     box-sizing: border-box;
-    padding: 100px 150px;
+    padding: 100px 100px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 .footer_style h2{
