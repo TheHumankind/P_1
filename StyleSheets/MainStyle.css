@@ -85,7 +85,7 @@
     list-style: none;
     margin-top: 30px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 .service ul li{
@@ -154,7 +154,7 @@
     min-height: 450px;
     list-style: none;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 .price ul li{
