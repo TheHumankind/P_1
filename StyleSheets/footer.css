@@ -1,68 +1,76 @@
-/* секция футера */
-
+/*footer*/
 .footer_style {
-    width: 1440px;
+    max-width: 1440px;
+    width: 100%;
     background-color: #16133e;
     color: #FFF;
     box-sizing: border-box;
-    padding: 100px 150px;
+    padding: 100px 100px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
-
-/*заголовок футера*/
-
-.footer_h{
+.footer_style h2{
     margin: 0px;
     height: 32px;
     line-height: 20px;
 }
-
-/* текст футера */
-
+.footer_style h3{
+    margin-top: 0px;
+    margin-bottom: 20px;
+    height: 32px;
+    line-height: 20px;
+}
 .footer_info{
     vertical-align: top;
-    width: 250px;
-    display: inline-block;
+    max-width: 250px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
     margin: 0 50px;
     box-sizing: border-box;
 }
-
-/* все что отвечает за списки с навигацией */
-
 .footer_nav{
     vertical-align: top;
-    width: 630px;
-    display: inline-block;
-    margin: 0;
-    margin-left: 150px;
-}
+    max-width: 630px;
+    width: 100%;
+    margin-left: 10%;
 
+}
 .footer_ul{   
-    width: 730px;
+    max-width: 730px;
+    width: 100%;
     list-style: none;
     padding: 0px;
     margin: 0px;
+    display: flex;
 }
-
 .footer_ul_child{
+    max-width: 140px;
+    min-width: 100px;
     margin: 0 auto;
     padding: 0px;
     list-style: none;
 }
-.footer_ul_img{
+.footer_img{
     list-style: none;
-    width: 250px;
+    max-width: 250px;
     margin: 0px;
     padding: 0px;
     display: flex;
     justify-content: space-between;
 }
 .footer_li{
-    margin-right: 90px;
+    margin-right: 10%;
     vertical-align: top;
     display: inline-block;
 }
-
 .footer_li_child{
     display: block;
     margin-bottom: 15px;
+}
+.copyright{
+    margin-top: 40px;
+    width: 100%;
+    text-align: center;
 }

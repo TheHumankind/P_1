@@ -3,37 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="StyleSheets/header.css" type="text/css">
-    <link rel="stylesheet" href="StyleSheets/MainStyle.css" type="text/css">
-    <link rel="stylesheet" href="StyleSheets/buttons.css" type="text/css">
+    
+    <link rel="stylesheet" href="StyleSheets/header.css" type="text/css">    
+    <link rel="stylesheet" href="StyleSheets/MainStyle.css" type="text/css">    
     <link rel="stylesheet" href="StyleSheets/footer.css" type="text/css">
+    <link rel="stylesheet" href="StyleSheets/buttons.css" type="text/css">
     <title>TunnelBear</title>
 </head>
     <body class="body_style">   
         <!-- ХЕДЕР = лого + навигация + лог -->
-        <header class="head_style">      
+        <header class="menu">      
             <h1 class="logo">
                 TunnelBear
             </h1> 
             
-            <nav class="lead_menu">
-                <ul class="hr_ul_menu">
-                    <li class="hr_li_menu">Plans</li>
-                    <li class="hr_li_menu">Apps</li>
-                    <li class="hr_li_menu">Help</li>
-                    <li class="hr_li_menu">My Account</li>
+            <nav class="navigation">
+                <ul>
+                    <li>Plans</li>
+                    <li>Apps</li>
+                    <li>Help</li>
+                    <li>My Account</li>
                 </ul>
             </nav>
             
-            <div class="nav_buttons">
-                <button class="button_up">
+            <div class="menu_btn">
+                <button class="all_buttons sign_up">
                    Sign up
-                </button>
+                </button >
 
-                <button class="button_log">
+                <button class="all_buttons login">
                    Login
                 </button>
-                
             </div>
         
             
@@ -46,45 +46,40 @@
             <article>   
                 <section class="banner">
                     <div class="text_content">
-                        <h1 class="banner_head">
-                            A more secure way <br><br>
+                        <h1>
+                            A more secure way
                             to browse the web
                         </h1>
-                        <p class="pattern_text"> 
+                        <p class="paragraph"> 
                             TunnelBear encrypts your internet connection to keep
                             your online activity private on any network.
                         </p>
-                        
-                        <button class="banner_button_main">
-                            Get TunnelBear now
-                        </button>
-            
-                        <button class="banner_button">
-                            Learn more
-                        </button>
-                                   
+                            <button class="banner_buttons get_now">
+                                Get TunnelBear now
+                            </button>
+                
+                            <button class="banner_buttons learn_more">
+                                Learn more
+                            </button>                                                               
                     </div>
 
                     <div class="banner_scrl">
-                      
-                        <img class="banner_img" src="img/banner_photo_01.png"  alt="Здесь должно быть изображение баннера">
-                        <img class="banner_img_button_02" src="img/Right.svg" alt=""> 
-                        <img class="banner_img_button_01" src="img/Left.svg" alt="">
-                    </div>    
-                        
-
-                   
+                                        
+                        <img class="banner_img" src="img/banner_photo_01.png"  alt="Здесь должно быть изображение баннера">    
+                        <img class="scroll_buttons" src="img/Right.svg" alt=""> 
+                        <img class="scroll_right scroll_buttons" src="img/Left.svg" alt="">
+                    </div>                       
                 </section>
 
                 <!-- Сервисы -->
 
                 <section class="service">
                     <p> OUR SERVICES </p>
-                    <h2 class="header_style"> Why millions of people are using TunnelBear </h2>
-                    <p class="pattern_text"> TunnelBear respects your privacy. We will never monitor, log, or sell any of your browsing activity. </p>
+                    <h2 class="h1_like"> Why millions of people are using TunnelBear </h2>
+                    <p class="paragraph"> TunnelBear respects your privacy. We will never monitor, log, or sell any of your browsing activity. </p>
 
-                    <ul class="service_ul">
-                        <li class="service_li">
+                    <ul>
+                        <li>
                             <img class="service_img" src="img/speed_icon.png" width="60" alt="Иконка сервиса 1">
                             <h4 class="service_head"> Engineered for speed </h4>
                             <p class="mar_del"> 
@@ -95,7 +90,18 @@
                             <br>
                             <a href="https://www.instagram.com/"> Learn more </a>
                         </li>
-                        <li class="service_li">
+                        <li>
+                            <img class="service_img" src="img/speed_icon.png" width="60" alt="Иконка сервиса 1">
+                            <h4 class="service_head"> Engineered for speed </h4>
+                            <p class="mar_del"> 
+                                Our global server network is optimized to
+                                let you surf and stream quickly. No
+                                throttling, no buffering, no fuss. 
+                            </p>
+                            <br>
+                            <a href="https://www.instagram.com/"> Learn more </a>
+                        </li>
+                        <li>
                             <img class="service_img" src="img/Secure_icon.png" width="60" alt="Иконка сервиса 2">
                             <h4 class="service_head"> Security you can rely on </h4>
                             <p class="mar_del"> 
@@ -106,7 +112,7 @@
                             <br>
                             <a href="https://www.facebook.com"> Learn more </a>
                         </li>
-                        <li class="service_li">
+                        <li>
                             <img class="service_img" src="img/Encode_icon.png" width="60" alt="Иконка сервиса 3">
                             <h4 class="service_head"> Strong Encryption </h4>
                             <p class="mar_del"> 
@@ -123,12 +129,12 @@
                 <!-- Приложения -->
                 
                 <section class="app">
-                    <p class="mar_del"> OUR APPS </p>
+                    <p class="paragraph"> OUR APPS </p>
 
-                    <h2 class="header_style"> Easy-to-use apps for all your devices</h2>
+                    <h2 class="h1_like"> Easy-to-use apps for all your devices</h2>
 
-                    <p class="pattern_text"> Just open the TunnelBear app, select a country, and flip the switch. </p>
-                    <div class="app_img_box">
+                    <p class="paragraph"> Just open the TunnelBear app, select a country, and flip the switch. </p>
+                    <div class="app_container">
                         <div class="app_img">
                             <img class="app_img_size" src="img/Portable.png" alt="Изображение содержащее в себе текст 1">
                             <p class="app_img_txt">
@@ -142,59 +148,87 @@
                                 Most user-friendly PC app. <br>
                                 Made for everyone.
                             </p>
-                        </div> 
+                        </div>                        
                     </div>
                 </section>
 
                 <!-- Цены -->
 
                 <section class="price">
-                    <h2 class="header_style"> Choose the plan that's right for your buisness </h2>
+                    <h2 class="h1_like"> Choose the plan that's right for your buisness </h2>
 
-                    <p class="pattern_text"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore, fugit? Sint, a officia! </p>
+                    <p class="paragraph"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore, fugit? Sint, a officia! </p>
 
-                    <ul class="price_ul">
-                        <li class="price_li li_top_bord_01">
-                            <h2 class="header_style"> Started plan</h2>
-                            <h2 class="header_style li_col_01"> Free </h2> 
-                            <p class="pattern_text li_txt_col"> Testing and limited usage </p>
+                    <ul>
+                        <li class="blue_border">
+                            <h2 class="h1_like"> Started plan</h2>
+                            <h2 class="h1_like price_headers blue_text"> Free </h2> 
+                            <p class="pattern_text"> Testing and limited usage </p>
                             <p class="li_txt_col">
                                 Testing and limited usage <br>
                                 500MB of secure browsing
                             </p>
                             <br>
-                            <button class="button_up li_button_set">
+                            <button>
                                 Get Started
                             </button>
 
                         </li>
-                        <li class="price_li li_top_bord_02">
-                            <h2 class="header_style"> Unlimited </h2>
-                            <h2 class="header_style li_col_02"> $3.33/mo </h2> 
-                            <p class="pattern_text li_txt_col"> All-day security and peace of mind </p>
+                        <li class="green_border">
+                            <h2 class="h1_like"> Unlimited </h2>
+                            <h2 class="h1_like price_headers  green_text"> $3.33/mo </h2> 
+                            <p class="pattern_text"> All-day security and peace of mind </p>
                             <p class="li_txt_col">
                                 Unlimited secure browsing <br>
                                 5 connected devices
                                 Priority customer service
                             </p>
                             <br>
-                            <button class="button_up li_button_set">
+                            <button>
                                 Get Started
                             </button>
                         </li>
-                        <li class="price_li li_top_bord_03">
-                            <h2 class="header_style"> Teams</h2>
-                            <h2 class="header_style li_col_03"> $5.75/upm</h2> 
-                            <p class="pattern_text li_txt_col"> For businesses securing 2+ users </p>
+                        <li class="red_border">
+                            <h2 class="h1_like"> Teams</h2>
+                            <h2 class=" h1_like price_headers red_text"> $5.75/upm</h2> 
+                            <p class="pattern_text"> For businesses securing 2+ users </p>
                             <p class="li_txt_col"> 
                                 Unlimited secure browsing <br>
                                 5 connected devices per user <br>
                             </p>
                             <br>
-                            <button class="button_log li_button_set">
+                            <button class="color_reverse">
                                 Get Started
                             </button>
                         </li>
+                        <li class="green_border">
+                            <h2 class="h1_like"> Unlimited </h2>
+                            <h2 class="h1_like price_headers  green_text"> $3.33/mo </h2> 
+                            <p class="pattern_text"> All-day security and peace of mind </p>
+                            <p class="li_txt_col">
+                                Unlimited secure browsing <br>
+                                5 connected devices
+                                Priority customer service
+                            </p>
+                            <br>
+                            <button>
+                                Get Started
+                            </button>
+                        </li>
+                        <li class="green_border">
+                            <h2 class="h1_like"> Unlimited </h2>
+                            <h2 class="h1_like price_headers  green_text"> $3.33/mo </h2> 
+                            <p class="pattern_text"> All-day security and peace of mind </p>
+                            <p class="li_txt_col">
+                                Unlimited secure browsing <br>
+                                5 connected devices
+                                Priority customer service
+                            </p>
+                            <br>
+                            <button>
+                                Get Started
+                            </button>
+                        </li>                       
                     </ul>
 
                 </section>
@@ -203,13 +237,13 @@
 
                 <section class="trial">
 
-                    <h1 class="header_style h_style_trial"> Get started today and try 30 days free </h1>    
+                    <h1 class="h1_like"> Get started today and try 30 days free </h1>    
                     <br>
-                    <p class="pattern_text t_style_trial"> No contact, no set-up costs, just awesome way to organase your money. </p>
-                    <button class="button_log trial_bt_set_01"> 
+                    <p class=""> No contact, no set-up costs, just awesome way to organase your money. </p>
+                    <button> 
                         Try it for free
                     </button>
-                    <button class="button_up trial_bt_set_02"> 
+                    <button class="color_reverse"> 
                         Watch Demo
                     </button>
 
@@ -218,30 +252,30 @@
 
                 <!-- Поле для связи -->
 
-                <section class="con_us"> 
-                    <h2 class="header_style con_us_h"> Request further information </h2>
+                <section class="contact_us"> 
+                    <h2 class="h1_like"> Request further information </h2>
                     <form action="">
-                        <input class="con_us_men" type="email" name="email" id="email" required  placeholder="email"> <br> <br>
+                        <input type="email" name="email" id="email" required  placeholder="email"> <br> <br>
                     
-                        <input class="con_us_men" type="text" name="First Name" id="firstName" placeholder="First name"> <br> <br>
+                        <input type="text" name="First Name" id="firstName" placeholder="First name"> <br> <br>
 
-                        <input class="con_us_men" type="text" name="Last Name" id="lastName" placeholder="Last name"> <br> <br>
+                        <input type="text" name="Last Name" id="lastName" placeholder="Last name"> <br> <br>
 
-                        <input class="con_us_men" type="text" name="Company" id="Company" placeholder="Company name"> <br> <br>
+                        <input type="text" name="Company" id="Company" placeholder="Company name"> <br> <br>
 
-                        <input class="con_us_men" type="tel" name="Phone number" id="phoneNumber" required placeholder="Phone number"> <br> <br>
+                        <input type="tel" name="Phone number" id="phoneNumber" required placeholder="Phone number"> <br> <br>
 
                         <textarea class="con_us_men con_us_t_box" name="message" placeholder="Your message" id="message" cols="30" rows="10"></textarea> <br> <br>
 
-                        <input class="con_us_chck" type="checkbox" name="Representation" id="Representation" required>
-                        <label class="pattern_text" for="Representation">I agree for a representation of something</label> <br> <br>
+                        <input type="checkbox" name="Representation" id="Representation" required>
+                        <label class="paragraph" for="Representation">I agree for a representation of something</label> <br> <br>
                     
-                        <input class="con_us_chck" type="checkbox" name="Newsletter" id="Newsletter" >
-                        <label class="pattern_text" for="Newsletter">Please, also subscribe to our newsletter</label> <br> <br>
+                        <input type="checkbox" name="Newsletter" id="Newsletter" >
+                        <label class="paragraph" for="Newsletter">Please, also subscribe to our newsletter</label> <br> <br>
                     
-                        <input class="con_us_but" type="submit" value="Submit">
+                        <input type="submit" value="Submit">
                     </form>
-                    <p class="pattern_text txt_ali">
+                    <p class="paragraph">
                         Please, find out our Privacy Policy
                         <a class="a_ignore" href="https://www.google.com/">
                             here
@@ -255,9 +289,9 @@
         <footer class="footer_style">
             
             <div class="footer_info">
-                <h2 class="footer_h">TunnelBear</h2>
+                <h2>TunnelBear</h2>
                 <br>
-                <p class="pattern_text">
+                <p class="paragraph">
                     We spent more than 65 hours researching 53
                     VPN services [and] TunnelBear is the most
                     ansparent and trustworthy provider offering
@@ -265,29 +299,29 @@
             
                 </p>
                 <nav>
-                    <ul class="footer_ul_img">
-                        <li class="footer_img">
+                    <ul class="footer_img">
+                        <li>
                             <a href="https://www.instagram.com/">
                                 <img src="img/inst.svg" width="40" alt="instagram icon">   
                             </a>                      
                         </li>
-                        <li class="footer_img">
+                        <li>
                             <a href="https://www.facebook.com">
                                 <img src="img/facebook_icon.svg" width="40" alt="Facebook icon">
                             </a>
                         </li>
-                        <li class="footer_img">
+                        <li>
                             <a href="https://www.GitHub.com">
                             <img src="img/GitHub.svg" width="40" alt="Github icon"> 
                             </a>
                             
                         </li>
-                        <li class="footer_img">
+                        <li>
                             <a href="https://www.twiiter.com">
                                 <img src="img/unknow_logo.svg" width="40" alt="Twitter icon">
                             </a>
                         </li>
-                        <li class="footer_img">
+                        <li>
                             <a href="https://www.twiiter.com">
                                 <img src="img/twitter.svg" width="40" alt="Twitter icon">
                             </a>
@@ -365,14 +399,14 @@
                     
 
                         <li class="footer_li">
-                            <h3 class="footer_h"> CONTACT US </h3>
+                            <h3> CONTACT US </h3>
                             <h3> We're Always Happy to Help</h3>
                             <h3> Mail@freehand.io </h3>
                             <img src="img/TunnelBearLogo.svg" alt="Лого">
                         </li>
                 </ul>
             </div>
-            <p class="text_pattern con_us_h mar_top"> Copyright ©2020. Crafted with love. </p>
+            <p class="paragraph copyright"> Copyright ©2020. Crafted with love. </p>
         </footer>
     </body>
 </html>
