@@ -1,5 +1,6 @@
 /*настройка body */
 .body_style{
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -151,7 +152,7 @@
 }
 .service ul{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     flex-wrap: wrap;     
     padding: 0px;
     margin-top: 30px;
@@ -164,6 +165,10 @@
     border: 1px solid #E5EAF4;
     border-radius: 8px; 
     margin-top: 25px;
+    margin-right: 52px;
+}
+.service ul li:nth-child(3n){
+    margin-right: 0px;
 }
 .service_img{
     box-sizing: border-box;
@@ -218,7 +223,7 @@
 }
 .price ul{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     flex-wrap: wrap;
     list-style: none; 
     max-width: 1200px;
@@ -233,6 +238,10 @@
     min-height: 450px;
     padding-top: 40px;
     text-align: center;
+    margin-right: 60px;
+}
+.price ul li:nth-child(3n){
+    margin-right: 0px;
 }
 .price_headers{
     margin-top: 30px; 
@@ -243,7 +252,7 @@
     border-top: 4px solid #007FFC;
 }
 .green_border{
-    border-top: 4px solid #0051ff;
+    border-top: 4px solid #56CBAE;
 }
 .red_border{
     border-top: 4px solid #FA6770;
@@ -413,7 +422,90 @@
 .footer_links ul nav ul li{
     margin-bottom: 20px; 
 }
+
+/*Модальное окно */
+
+.modal_position{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);    
+}
+.touch_block{
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0, 0, 0, 0.6);
+}
+.modal{
+    width: 300px;
+    min-height: 200px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #FFF;
+    box-shadow: 0px 30px 50px rgba(0, 0, 0, 0.6);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.close{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 22px;
+    height: 22px;
+    border: 0px;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #fff;
+}
+.close::before,
+.close::after{
+    position: absolute;
+    top: 10px;
+    right: 2px;
+    width: 19px;
+    height: 3px;
+    background-color: rgb(61, 54, 54);
+    content: '';
+}
+.close::after{
+    transform: rotate(45deg);
+}
+.close::before{
+    transform: rotate(-45deg);
+}
+.modal h2{
+    margin: 0px;
+    font-size: 24px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.modal p{
+    font-size: 14px;
+    margin: 20px 0px 0px 0px;
+}
+input[type="submit"] + p{
+    margin: 0;
+    text-align: center;
+}
+.modal label{    
+    display: block;
+    margin-top: 15px;
+    font-size: 12px;
+}
+.modal input{ 
+    width: 298px;
+    height: 25px;
+    border: 2px solid #16133E;
+    border-radius: 4px;
+}
+.modal input[type="submit"]{
+    width: 306px;
+    min-height: 35px;
+    margin-top: 30px;
+    background-color: #16133E;
+    color: #fff;
+}
+
 /*Настройка цветов/шрифтов*/
+
 @font-face{
     font-family: Market Deco;
     src: url(Fonts/Market_Deco.ttf);
