@@ -1,0 +1,71 @@
+.body_style{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}     
+
+.menu{
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #d8d8d8;
+}
+
+.navigation{
+    max-width: 710px;
+    width: 100%;
+    display: flex;
+    vertical-align: middle;
+    justify-content: space-around;
+}
+
+.navigation ul{
+    flex-grow: 1;
+    flex-wrap: wrap;
+    padding-left: 10%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.navigation ul li{
+    margin: 0px 3%;
+}
+
+.logo{
+    max-width: 200px;
+    width: 100%;
+    text-align: center;
+}
+
+.menu_btn{
+    max-width: 290px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.login{
+  color: #FFF;
+  background-color: #16133E;  
+}
+.sign_up{
+  color: #16133E;
+  background-color: #FFF;  
+}
+.menu_btn button{
+    max-width: 110px;
+    width: 100%;
+    max-height: 50px;
+    height: 100%;
+    margin: 0px 3%;
+    border: 2px solid #16133E;
+    border-radius: 8px;
+    font-weight: 600;    
+}
