@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="StyleSheets/style.min.css" type="text/css">
-    <title>TunnelBear</title>
+    <link rel="stylesheet" href="StyleSheets/MainStyleGeneral.css" type="text/css">
+        <title>TunnelBear</title>
+    <script src="./script/modal_script.js" async></script>
 </head>
     <body class="body_style">   
         <!-- ХЕДЕР = лого + навигация + лог -->
@@ -23,15 +24,14 @@
             </nav>
             
             <div class="menu_btn">
-                <button class="all_buttons sign_up">
+                <button class="all_buttons sign_up" id="sign_up">
                    Sign up
                 </button >
-
-                <button class="all_buttons login">
-                   Login
+                
+                <button class="all_buttons login" id="login">
+                    Login
                 </button>
             </div>
-        
             
 
         </header> 
@@ -404,9 +404,9 @@
 
         <!-- Модальное окно -->
 
-        <section class="touch_block modal_position">
+        <section class="touch_block modal_position modal_vision">
             <section class="modal modal_position"> 
-                <button class="close">
+                <button class="close" id="close">
                 </button>
                 <h2>Login</h2>
                 <p>

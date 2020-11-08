@@ -504,6 +504,10 @@ input[type="submit"] + p{
     color: #fff;
 }
 
+.modal_vision{
+    display: none;
+}
+
 /*Настройка цветов/шрифтов*/
 
 @font-face{
