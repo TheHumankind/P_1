@@ -1,18 +1,18 @@
 var log = document.querySelector("#login");
-var mod_email = document.querySelector("#modal_email");
+var modalEmail = document.querySelector("#modal_email");
 var modal = document.querySelector(".modal_vision");
-var disable_modal = document.querySelector("#close");
+var modalClose = document.querySelector("#close");
 
 
 
-log.addEventListener("click", add_modal);
-disable_modal.addEventListener("click",remove_modal);
+log.addEventListener("click", showModal);
+modalClose.addEventListener("click",hideModal);
 
-function add_modal () {
+function showModal () {
     modal.classList.remove("modal_vision");
 }
 
-function remove_modal () {
+function hideModal () {
     modal.classList.add("modal_vision"); 
 }
 
